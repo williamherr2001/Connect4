@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// Will Herrington
 public class connect4 {
 	static int t = 0;
 	public static void main(String[] args) {
@@ -71,10 +71,10 @@ public class connect4 {
 	
 	
 	public static boolean checkWinStatus(char[][] b) {
-		// 69 possible win conditions.
-		// 24 diagonal win conditions.
+		// 45 possible win conditions.
 		// 24 horizontal win conditions.
 		// 21 vertical win conditions.
+		// Note: Diagonal win conditions not included.
 		
 		//horizontal win
 		for(int row = 0; row<b.length;row++) {
